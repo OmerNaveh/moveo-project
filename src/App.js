@@ -1,10 +1,10 @@
 import Controls from "./components/Controls";
-import MusicChanels from "./components/MusicChanels";
+import MusicChannels from "./components/MusicChannels";
 
 function App() {
   return (
     <div className="App">
-      <MusicChanels />
+      <MusicChannels />
       <Controls />
     </div>
   );

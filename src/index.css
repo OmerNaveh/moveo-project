@@ -1,0 +1,13 @@
+.trackRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1em;
+  box-shadow: 0 0 0.4em 0.1em black;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+.trackLogo {
+  height: 2em;
+  width: 2em;
+}
