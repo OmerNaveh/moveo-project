@@ -1,7 +1,6 @@
 import React, { useRef, useState } from "react";
 import VolumeUpIcon from "@mui/icons-material/VolumeUp";
 import VolumeOffIcon from "@mui/icons-material/VolumeOff";
-import trackLogo from "../assets/musicLogo.jpg";
 import { colorArray } from "../helpers/randomColorGenerator";
 
 export default function Row({ file, index }) {
@@ -13,7 +12,6 @@ export default function Row({ file, index }) {
   };
   return (
     <div className="trackRow" style={{ backgroundColor: colorArray[index] }}>
-      <img className="trackLogo" src={trackLogo} alt="trackLogo"></img>
       <p className="trackName">
         {file
           .slice(0, file.length - 4)

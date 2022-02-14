@@ -11,3 +11,17 @@
   height: 2em;
   width: 2em;
 }
+.musicChannels {
+  position: relative;
+  width: 80%;
+}
+.tracksSlider {
+  transition: all 0.2s linear;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.svgSlider {
+  color: rgb(197, 197, 197);
+  margin-top: -0.5em;
+}
