@@ -36,5 +36,6 @@ const dragNDrop = (setProgress, audioElems) => {
       },
     },
   });
+  slider.styleCursor(false); // remove auto styling to cursor
 };
 export default dragNDrop;
