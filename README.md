@@ -26,4 +26,12 @@ Feature are written below :)
   Also has drag and drop abilities(moving the playback to the
   dropped position)
 
+## Frameworks and libraries used:
+
+- React.js
+- MaterialUI
+- InteractJS
+
 ## Screenshot:
+
+<img src="./src/assets/screenshot.JPG" alt="screenshot"/>
