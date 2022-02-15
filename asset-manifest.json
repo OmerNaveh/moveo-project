@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/moveo-project/static/css/main.f27df03e.css",
+    "main.js": "/moveo-project/static/js/main.e39b06a6.js",
+    "index.html": "/moveo-project/index.html",
+    "main.f27df03e.css.map": "/moveo-project/static/css/main.f27df03e.css.map",
+    "main.e39b06a6.js.map": "/moveo-project/static/js/main.e39b06a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f27df03e.css",
+    "static/js/main.e39b06a6.js"
+  ]
+}
