@@ -25,7 +25,7 @@ export default function Row({ file, index }) {
       )}
       <audio
         ref={audioElem}
-        src={`/loop_files/${file}`}
+        src={`${process.env.PUBLIC_URL}/loop_files/${file}`}
         className="track"
       ></audio>
     </div>
