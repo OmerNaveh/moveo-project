@@ -3,6 +3,7 @@ import fileNamesArr from "../helpers/fileNamesArr.json";
 import Row from "./Row";
 import BookmarkIcon from "@mui/icons-material/Bookmark";
 import dragNDrop from "../helpers/dragndrop";
+import Timer from "./Timer";
 
 export default function MusicChannels() {
   const [progress, setProgress] = useState(0);
@@ -22,6 +23,7 @@ export default function MusicChannels() {
 
   return (
     <div className="musicChannels">
+      <Timer />
       <div
         className="tracksSlider"
         style={{

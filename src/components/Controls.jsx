@@ -28,7 +28,7 @@ export default function Controls() {
       document.querySelectorAll(".track").forEach((track) => {
         track.loop = true;
       });
-      replayElem.current.style.color = "blue";
+      replayElem.current.style.color = "rgb(168,236,255,1)";
     } else {
       document.querySelectorAll(".track").forEach((track) => {
         track.loop = false;
@@ -47,12 +47,16 @@ export default function Controls() {
   return (
     <div className="controls">
       {!isPlaying ? (
-        <PlayCircleIcon onClick={playMusic} />
+        <PlayCircleIcon className="svgs" onClick={playMusic} />
       ) : (
-        <PauseCircleIcon onClick={pauseMusic} />
+        <PauseCircleIcon className="svgs" onClick={pauseMusic} />
       )}
-      <StopCircleIcon onClick={stopMusic} />
-      <ReplayCircleFilledIcon ref={replayElem} onClick={replay} />
+      <StopCircleIcon className="svgs" onClick={stopMusic} />
+      <ReplayCircleFilledIcon
+        className="svgs"
+        ref={replayElem}
+        onClick={replay}
+      />
     </div>
   );
 }
